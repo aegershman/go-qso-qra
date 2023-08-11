@@ -6,7 +6,7 @@ before:
 project_name: qso_qra
 
 builds:
-  - #
+  - id: qso
     binary: qso
     env:
       - CGO_ENABLED=0
@@ -42,6 +42,9 @@ changelog:
 
 brews:
   # https://goreleaser.com/customization/homebrew/?h=tap
-  - repository:
+  - tap:
       owner: aegershman
-      name: go-qso-qra
+      name: homebrew-tap
+    name: qso
+    homepage: https://github.com/aegershman/go-qso-qra
+    description: FCC amateur radio callsign search from your cli
