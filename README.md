@@ -2,13 +2,9 @@
 
 FCC amateur radio callsign search from your cli.
 
-Provides a Google Maps link to the callsign's address.
-
-## install
-
-```sh
-brew install aegershman/tap/qso
-```
+- Caches results in `~/.ham_cache`.
+- Provides a Google Maps link to the callsign's address.
+- Uses APIs from `hamdb` (default) or `callook` using `-api {hamdb, callook}` flag.
 
 ## usage
 
@@ -36,4 +32,10 @@ State: CA
 Zip: 90210
 Country: United States
 Google Maps Link: https://www.google.com/maps?q=34.0986995,-118.4198427
+```
+
+## install
+
+```sh
+brew install aegershman/tap/qso
 ```
