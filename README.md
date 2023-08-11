@@ -4,6 +4,12 @@ FCC amateur radio callsign search from your cli.
 
 Provides a Google Maps link to the callsign's address.
 
+## install
+
+```sh
+brew install aegershman/tap/qso
+```
+
 ## usage
 
 ```sh
